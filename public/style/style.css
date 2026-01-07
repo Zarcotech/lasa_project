@@ -339,3 +339,10 @@ img:hover {
 hr {
     width: 100%;
 }
+
+@media (min-width: 400px) {
+    .it-image {
+        max-width: 100px;
+        width: 100%;
+    }
+}
