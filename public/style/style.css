@@ -303,8 +303,14 @@ img:hover {
     background-color: var(--discord-card-bg);
     border: 1px solid var(--discord-pfp-ring);
     border-radius: 10px;
-    padding: 5px 0;
+    padding: 15px 0;
     z-index: 1000;
+}
+
+.context-menu p {
+    color: var(--discord-text-white);
+    margin: 0 0 8px 12px;
+    font-weight: bold;
 }
 
 .context-menu a {
