@@ -224,8 +224,8 @@ document.addEventListener('contextmenu', (e) => {
   e.preventDefault();
   const menu = document.getElementById('custom-menu');
   if (menu) {
-    menu.style.top = `${e.pageY}px`;
-    menu.style.left = `${e.pageX}px`;
+    menu.style.top = `${e.clientY}px`;
+    menu.style.left = `${e.clientX}px`;
     menu.style.display = 'block';
   }
 });

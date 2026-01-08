@@ -304,7 +304,7 @@ img:hover {
     border: 1px solid var(--discord-pfp-ring);
     border-radius: 10px;
     padding: 15px 0;
-    z-index: 1000;
+    z-index: 9999;
 }
 
 .context-menu p {
