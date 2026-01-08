@@ -2,3 +2,6 @@ node_modules
 pnpm-lock.yaml
 .replit
 .env
+
+# this was the html for the temporary host
+h.html
