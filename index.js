@@ -3,7 +3,7 @@ import { join, dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
 const app = express();
-const port = 5000;
+const port = 3000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -18,6 +18,6 @@ app.use((req, res) => {
     res.status(404).sendFile(join(__dirname, 'public', 'templates', '404.html'));
 })
 
-app.listen(port, '0.0.0.0', () => {
-    console.log(`Listening at http://0.0.0.0:${port}`);
+app.listen(port, () => {
+    console.log(`Listening at http://localhost:${port}`);
 });

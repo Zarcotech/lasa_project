@@ -242,3 +242,6 @@ if (clearBtn) {
     location.reload();
   });
 }
+
+var player = videojs('my-video');
+player.play();
