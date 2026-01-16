@@ -360,3 +360,32 @@ hr {
 .patrol {
     object-fit: contain;
 }
+
+i {
+    color: var(--discord-text-light);
+    font-size: 1.2rem;
+    cursor: pointer;
+    will-change: transform, color, box-shadow;
+    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1),
+        color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+i:hover {
+    color: var(--discord-text-white);
+    transform: scale(1.15);
+    animation: pulse-hover 1s infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+i:active {
+    transform: scale(0.9);
+    animation: none;
+}
+
+@keyframes pulse-hover {
+    0% {
+        box-shadow: 0 0 0 0 rgba(var(59, 165, 93), 0.7);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(var(59, 165, 93), 0);
+    }
+}
