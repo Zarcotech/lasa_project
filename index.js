@@ -18,6 +18,6 @@ app.use((req, res) => {
     res.status(404).sendFile(join(__dirname, 'public', 'templates', '404.html'));
 })
 
-app.listen(port, () => {
-    console.log(`Listening at http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Listening at http://0.0.0.0:${port}`);
 });
