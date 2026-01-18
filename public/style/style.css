@@ -340,16 +340,11 @@ img:hover {
         flex-direction: column
     }
 }
-
-img:hover {
-    cursor: pointer;
-}
-
 hr {
     width: 100%;
 }
 
-@media (min-width: 250px) and (max-width: 631px) {
+@media (min-width: 250px) and (max-width: 431px) {
     .it-image {
         max-width: 100px;
         width: 100%;
