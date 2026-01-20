@@ -1,4 +1,4 @@
-# ZarcoTech Portfolio
+# Zarcotech's LASA project
 
 ## Overview
 This is a personal portfolio website for Zidan Harb (زيدان حرب). It's a Node.js/Express application that serves static HTML, CSS, and JavaScript files.
@@ -17,8 +17,6 @@ This is a personal portfolio website for Zidan Harb (زيدان حرب). It's a 
 
 ## Dependencies
 - express - Web server framework
-- dotenv - Environment variable management
-- Additional packages for Discord integration (discord.js, python-shell, ws)
+- url - Simplifying URL to Path
+- path - Creating __filename and __dirname
 
-## Recent Changes
-- January 16, 2026: Initial Replit setup, configured Express to bind to 0.0.0.0:5000
